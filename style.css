@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s all linear;
+}
+.container{
+  background-color: pink;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#icon{
+  position: relative;
+  height: 8rem;
+  width: 8rem;
+  background-color: #000000;
+  border-radius: 4rem;
+}
+#solLua{
+  position: absolute;
+  height: 7rem;
+  width: 3.5rem;
+  background-color: white;
+  border-top-right-radius: 7rem;
+  border-bottom-right-radius: 7rem;
+  top: 0.5rem;
+  right: 0.5rem;
+}
